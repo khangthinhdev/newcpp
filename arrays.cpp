@@ -14,14 +14,13 @@ int main(){
 		cin >> size;
 
 		vector<int> temvect;
-
+		
 		for (int k = 0; k < size; k++)
 		{
 			int x;
 			cin >> x;
 			temvect.push_back(x); 
 		}
-
 		vect.push_back(temvect);
 	}
 
