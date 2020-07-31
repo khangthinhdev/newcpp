@@ -67,120 +67,156 @@ double Conveter(double money, int fromMoney, int toMoney){
 				case 2:
 					money = money * 23,181.50;
 					return money;
+					break;
 				case 3:
 					money = money * 1,197.02;
 					return money;
+					break;
 			    case 4:
 					money = money * 105.41;
 					return money;
+					break;
 				case 5:
 					money = money * 7.00;
 					return money;
+					break;
 				case 6:
 					money = money * 0.78;
 					return money;
+					break;
 				default:
 					return money;
+					break;
 			};
 		case 2:
 			switch (toMoney) {
 				case 1:
 					money = money * 0.000044;
 					return money;
+					break;
 				case 3:
 					money = money * 0.052;
 					return money;
+					break;
 				case 4:
 					money = money * 0.0046;
 					return money;
+					break;
 				case 5:
 					money = money * 0.00031;
 					return money;
+					break;
 				case 6:
 					money = money * 0.000034;
 					return money;
+					break;
 				default:
 					return money;
+					break;
 			};
 		case 3:
 			switch (toMoney) {
 				case 1:
 					money = money * 0.00084;
 					return money;
+					break;
 				case 2:
 					money = money * 19.37;
 					return money;
+					break;
 				case 4:
 					money = money * 0.088;
 					return money;
+					break;
 				case 5:
 					money = money * 0.0058;
 					return money;
+					break;
 				case 6:
 					money = money * 0.00065;
 					return money;
+					break;
 				default:
 					return money;
+					break;
 			};
 		case 4:
 			switch (toMoney) {
 				case 1:
 					money = money * 0.0095;
 					return money;
+					break;
 				case 2:
 					money = money * 219.98;
 					return money;
+					break;
 				case 3:
 					money = money * 11.36;
 					return money;
+					break;
 				case 5:
 					money = money * 0.066;
 					return money;
+					break;
 				case 6:
 					money = money * 0.0074;
 					return money;
+					break;
 				default:
 					return money;
+					break;
 			};
 		case 5:
 			switch (toMoney) {
 				case 1:
 					money = money * 0.14;
 					return money;
+					break;
 				case 2:
 					money = money * 3,309.99;
 					return money;
+					break;
 				case 3:
 					money = money * 170.93;
 					return money;
+					break;
 				case 4:
 					money = money * 15.05;
 					return money;
+					break;
 				case 6:
 					money = money * 0.11;
 					return money;
+					break;
 				default:
 					return money;
+					break;
 			};
 		case 6:
 			switch (toMoney) {
 				case 1:
 					money = money * 1.28;
 					return money;
+					break;
 				case 2:
 					money = money * 29,784.40;
 					return money;
+					break;
 				case 3:
 					money = money * 1,537.45;
 					return money;
+					break;
 				case 4:
 					money = money * 135.37;
 					return money;
+					break;
 				case 5:
 					money = money * 8.99;
 					return money;
+					break;
 				default:
 					return money;
+					break;
 			};
 	}
 };
