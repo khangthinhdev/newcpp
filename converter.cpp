@@ -28,7 +28,7 @@ int main()
 
 	cout << "Type money you want to convert: ";
 	double inputMoney; cin >> inputMoney;
-	
+
 	int toMoney = 0;
 	while (1) {
 		cout << "Type kind (index) of money you want to convert TO: ";
